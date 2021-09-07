@@ -1,0 +1,26 @@
+{
+  "name": "forgot-password-using-nodejs-and-express",
+  "version": "1.0.0",
+  "description": "This is an application that illustration how to implement the forgot password process using nodejs and expressjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "forgot password"
+  ],
+  "author": "Chime Chibuike Princewill",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
