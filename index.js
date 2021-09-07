@@ -17,7 +17,7 @@ const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017";
 mongoose
   .connect(MONGODB_URI, options)
   .then(() => {
-    console.error("connected successfully");
+    console.log("connected successfully");
   })
   .catch((err) => {
     throw "error occured : " + err;
